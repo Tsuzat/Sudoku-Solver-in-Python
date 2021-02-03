@@ -1,2 +1,2 @@
 # Sudoku-Solver-in-Python
-Open READ_ME.txt
+Open Read_Me.txt
