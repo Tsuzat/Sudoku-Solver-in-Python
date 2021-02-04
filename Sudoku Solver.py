@@ -34,7 +34,7 @@ def solver():
             
     print(np.matrix(sudoku))  # displaying the solved sudoku
     print("\n=========================================\n") 
-    input("More Solution?")  # asking to user if he wants more possible solution 
+    input("Do you want more Solution? (if there any!)")  # asking to user if he wants more possible solution 
     print("\n=========================================\n") 
        
 if __name__ == '__main__':
@@ -43,6 +43,8 @@ if __name__ == '__main__':
     for _ in range (9):
         sudoku.append([int(i) for i in input().split()])
 
+    print("\n=========================================\n")
+    print("Unsolved Soduku")
     print("\n=========================================\n")
 
     print(np.matrix(sudoku))
